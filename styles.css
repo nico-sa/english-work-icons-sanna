@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background:#000033;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:#000033;
+    border-left: 1px solid #0575E6;
+}
+
+::-webkit-scrollbar-thumb {
+    background: -webkit-radial-gradient(circle, #0575E6, #00F260); 
+    background: radial-gradient(circle, #0575E6, #00F260);
+}
+
+header{
+    text-align:center;
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260);
+    color:#000033;
+}
+
+h1{
+    font-size:40px;
+}
+
+h2{
+    text-align:center;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p{
+    text-align:center;
+    padding-left:20%;
+    padding-right:20%;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260);
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260); 
+    background: linear-gradient(to right, #0575E6, #00F260);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#000033;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #1818d1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 20px;
+    top: 5px;
+    right: 35px;
+}
+}
+
+h2{
+    font-size:27px;
+}
+
+.Accesibility-Icons{
+    text-align:center;
+    background: -webkit-radial-gradient(circle, #0575E6, #00F260); 
+    background: radial-gradient(circle, #0575E6, #00F260);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
